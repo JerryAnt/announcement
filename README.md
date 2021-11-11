@@ -1,5 +1,11 @@
 README.md
 
+to do
+IF statement so if hours1 minutes1 seconds1  == 0 it does not say undefined but it just does not display it.
+to do in the css
+
+
+
 What i want to do with this page:
 -work a new skill on JS vanilla
 COUNTER CLOCK
@@ -15,6 +21,9 @@ Bring to front a counter depending on the date at which the event is happening.
 
 JS:
 Work on a counter
+
+
+
 
 CSS:
 Responsiveness both on a mobile phone and on a computer desktop
