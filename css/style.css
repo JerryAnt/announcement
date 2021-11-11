@@ -1,15 +1,33 @@
 /*center the messsage*/
 .message {
-  color:red;
-  text-align:center;
-  justify-content: :center;
+  position: absolute;
+  bottom: 2%;
+  left:20%;
+  color:#E50914;
+  margin: 0;
+  padding: 0;
   font-size: 400%;
+  margin:0px;
+  padding:0px;
 }
 
 p {
   text-justify:center;
+  color: #E50914;
+  font-weight: bold;
+  font-size: 50px;
 }
-
+/*.netflix {
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  background:url("./imgs/Netflix_Symbol_PMS.png");
+  z-index: 100;
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+}*/
 .background {
   background-image:url("./onepiece_series.jpg");
   background-size: cover;
@@ -22,3 +40,4 @@ p {
   font-weight: bold;
   font-size: 50px;
 }
+

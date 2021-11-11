@@ -1,5 +1,11 @@
 const endTime = new Date("April 1, 2022 13:05:00 GMT+00:00").getTime();
 const timer = document.getElementById('timer');
+const th1 = document.getElementById('timer-hours1');
+const th2 = document.getElementById('timer-hours2');
+const tm1 = document.getElementById('timer-minutes1');
+const tm2 = document.getElementById('timer-minutes2');
+const ts1 = document.getElementById('timer-seconds1');
+const ts2 = document.getElementById('timer-seconds2');
 // countDownTimer is my variable to count down the time every seconds
 const countDownTimer = setInterval(function (){
 const currentTime = new Date().getTime();
@@ -25,4 +31,11 @@ const seconds1 = seconds.toString().split("")[0];
 const seconds2 = seconds.toString().split("")[1];
 
 timer.innerHTML = days + " days, "  + hours1 + hours2 + " hours, " + minutes1 + minutes2 + " minutes and " + seconds1 + seconds2 + " seconds";
+th1.innerHTML = hours1;
+th2.innerHTML = hours2;
+tm1.innerHTML = minutes1;
+tm2.innerHTML = minutes2;
+ts1.innerHTML = seconds1;
+ts2.innerHTML = seconds2;
+
 },1000);
