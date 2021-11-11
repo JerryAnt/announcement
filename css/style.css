@@ -1,6 +1,11 @@
 /*center the messsage*/
-.message{
+.message {
   color:red;
-  align:center;
+  text-align:center;
+  justify-content: :center;
+  font-size: 400%;
+}
 
+p {
+  text-justify:center;
 }

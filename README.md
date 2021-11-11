@@ -31,3 +31,18 @@ netflix logo:
 https://brand.netflix.com/en/assets/
 
 
+javascript:
+
+sources: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates
+reminder:
+this is for the time in milliseconds:
+
+const endTime = new Date("April 1, 2022 13:05:00 GMT+00:00").getTime();
+const timer = document.getElementById('timer');
+// countDownTimer is my variable to count down the time every seconds
+const countDownTimer = setInterval(function (){
+const currentTime = new Date().getTime();
+const timeLeft = endTime - currentTime;
+timer.innerHTML = timeLeft;
+},1000);
+
