@@ -9,3 +9,16 @@
 p {
   text-justify:center;
 }
+
+.background {
+  background-image:url("./onepiece_series.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.timer {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
