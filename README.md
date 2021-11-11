@@ -23,3 +23,11 @@ Bonus:
 Extract the logo of netflix through an API
 When the logo shows or when the page opens add the sound of netflix TaDam
 When hovering on the hiragana, trigger the sound of Luffy saying kaizoku oni ore wa naru
+
+
+
+Components sources:
+netflix logo:
+https://brand.netflix.com/en/assets/
+
+
