@@ -1,7 +1,7 @@
 // I want my page to show a counterclock with remaining number of days, hours, minutes, seconds
 
 // Call all the variables that are going to be used for instance
-const endTime = new Date("April 1, 2022 13:05:00 GMT+00:00").getTime();
+const endTime = new Date("July 22, 2022 00:00:00 GMT+00:00").getTime();
 const timer = document.getElementById('timer');
 const th1 = document.getElementById('timer-hours1');
 const th2 = document.getElementById('timer-hours2');
@@ -39,7 +39,7 @@ const seconds1 = noUndefined(seconds, 2).toString().split("")[0];
 const seconds2 = noUndefined(seconds, 2).toString().split("")[1];
 
 // Display the counter as one line
-timer.innerHTML = days + " days, "  + hours1 + hours2 + " hours, " + minutes1 + minutes2 + " minutes and " + seconds1 + seconds2 + " seconds";
+// timer.innerHTML = days + " days, "  + hours1 + hours2 + " hours, " + minutes1 + minutes2 + " minutes and " + seconds1 + seconds2 + " seconds";
 
 // Display the counter as different elements to work the css through
 th1.innerHTML = hours1;
